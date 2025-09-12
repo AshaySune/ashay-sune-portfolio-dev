@@ -2,6 +2,7 @@ import Navigation from "@/components/Navigation";
 import HeroSection from "@/components/HeroSection";
 import TechStack from "@/components/TechStack";
 import StatsSection from "@/components/StatsSection";
+import ProjectsSection from "@/components/ProjectsSection";
 
 const Index = () => {
   return (
@@ -13,6 +14,7 @@ const Index = () => {
         </div>
         <TechStack />
         <StatsSection />
+        <ProjectsSection />
       </main>
     </div>
   );

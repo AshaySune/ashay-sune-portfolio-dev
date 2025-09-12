@@ -19,13 +19,10 @@ const HeroSection = () => {
       {/* Content */}
       <div className="relative z-10 container mx-auto px-4 text-center">
         <div className="max-w-4xl mx-auto">
-          {/* Dynamic Greeting */}
+          {/* Dynamic Greeting with Typing Animation */}
           <div className="animate-fade-in-up mb-6">
-            <p className="text-primary-glow font-medium text-lg mb-2">
-              👋 Hello, I'm
-            </p>
             <h1 className="font-heading text-5xl md:text-7xl font-bold mb-4">
-              <span className="gradient-text">Ashay Sune</span>
+              <span className="typing-animation gradient-text">Hi, I'm Ashay Sune</span>
             </h1>
             <div className="text-xl md:text-2xl text-muted-foreground mb-6">
               <span className="inline-block animate-slide-in-right">IT Student</span>
@@ -39,7 +36,7 @@ const HeroSection = () => {
           {/* Bio */}
           <div className="animate-fade-in-up mb-8" style={{animationDelay: '0.6s'}}>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-              Creating innovative solutions that enhance user engagement and solve real-world problems. 
+              Passionate about creating solutions that enhance user engagement and foster communication. 
               Currently pursuing B.E. in Information Technology from Amravati, Maharashtra.
             </p>
           </div>

@@ -6,25 +6,25 @@ const StatsSection = () => {
     {
       icon: Briefcase,
       value: "3+",
-      label: "Months Internship",
+      label: "Months Internship Experience",
       description: "Backend Development",
     },
     {
       icon: FolderOpen,
       value: "2+",
-      label: "Projects",
+      label: "Major Projects Completed",
       description: "Full-Stack Applications",
     },
     {
       icon: Code2,
       value: "8+",
-      label: "Technologies",
+      label: "Programming Languages",
       description: "Modern Tech Stack",
     },
     {
       icon: GraduationCap,
-      value: "7.58",
-      label: "CGPA",
+      value: "7.58/10",
+      label: "Academic CGPA",
       description: "Academic Excellence",
     },
   ];
