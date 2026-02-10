@@ -36,6 +36,38 @@ const ProjectsSection = () => {
       githubUrl: "https://github.com/ashaysune",
       liveUrl: "#",
       category: "Frontend"
+    },
+    {
+      id: 3,
+      title: "Sneh Constructions",
+      description: "Built a professional website for Sneh Constructions to showcase their construction services, projects portfolio, and company information",
+      image: "/placeholder.svg",
+      technologies: ["React", "TypeScript", "Tailwind CSS"],
+      features: [
+        { icon: Globe, text: "Professional business landing page" },
+        { icon: Eye, text: "Project gallery showcase" },
+        { icon: Users, text: "Client testimonials section" },
+        { icon: MessageSquare, text: "Contact & inquiry forms" }
+      ],
+      githubUrl: "https://github.com/ashaysune",
+      liveUrl: null,
+      category: "Frontend"
+    },
+    {
+      id: 4,
+      title: "Khao2Khilao",
+      description: "Developed a food-related web application connecting food lovers with local cuisines and dining experiences",
+      image: "/placeholder.svg",
+      technologies: ["React", "TypeScript", "Tailwind CSS"],
+      features: [
+        { icon: Globe, text: "Browse local food options" },
+        { icon: Eye, text: "Attractive food listings UI" },
+        { icon: Database, text: "Menu & restaurant management" },
+        { icon: Users, text: "User-friendly ordering flow" }
+      ],
+      githubUrl: "https://github.com/ashaysune",
+      liveUrl: null,
+      category: "Full-Stack"
     }
   ];
 
