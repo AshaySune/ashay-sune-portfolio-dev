@@ -2,6 +2,10 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Github, ExternalLink, MessageSquare, Globe, Database, Server, Users, Eye, FileCode } from "lucide-react";
+import teacherPlatformImg from "@/assets/project-teacher-platform.jpg";
+import portfolioImg from "@/assets/project-portfolio.jpg";
+import snehConstructionsImg from "@/assets/project-sneh-constructions.jpg";
+import khao2khilaoImg from "@/assets/project-khao2khilao.jpg";
 
 const ProjectsSection = () => {
   const projects = [
@@ -9,7 +13,7 @@ const ProjectsSection = () => {
       id: 1,
       title: "Unified Teacher Guardian Platform",
       description: "Developed and implemented a unified teacher-guardian platform to enhance communication and collaboration between educators and guardians",
-      image: "/placeholder.svg",
+      image: teacherPlatformImg,
       technologies: ["Java"],
       features: [
         { icon: MessageSquare, text: "Real-time updates on student progress" },
@@ -25,7 +29,7 @@ const ProjectsSection = () => {
       id: 2,
       title: "Personal Portfolio Website",
       description: "Created a responsive personal portfolio website to showcase diverse projects and skills",
-      image: "/placeholder.svg",
+      image: portfolioImg,
       technologies: ["HTML", "CSS", "JavaScript"],
       features: [
         { icon: Eye, text: "Intuitive user interface design" },
@@ -41,7 +45,7 @@ const ProjectsSection = () => {
       id: 3,
       title: "Sneh Constructions",
       description: "Built a professional website for Sneh Constructions to showcase their construction services, projects portfolio, and company information",
-      image: "/placeholder.svg",
+      image: snehConstructionsImg,
       technologies: ["React", "TypeScript", "Tailwind CSS"],
       features: [
         { icon: Globe, text: "Professional business landing page" },
@@ -57,7 +61,7 @@ const ProjectsSection = () => {
       id: 4,
       title: "Khao2Khilao",
       description: "Developed a food-related web application connecting food lovers with local cuisines and dining experiences",
-      image: "/placeholder.svg",
+      image: khao2khilaoImg,
       technologies: ["React", "TypeScript", "Tailwind CSS"],
       features: [
         { icon: Globe, text: "Browse local food options" },
