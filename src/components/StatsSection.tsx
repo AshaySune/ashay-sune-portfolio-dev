@@ -23,7 +23,7 @@ const StatsSection = () => {
     },
     {
       icon: GraduationCap,
-      value: "7.58/10",
+      value: "8.7/10",
       label: "Academic CGPA",
       description: "Academic Excellence",
     },
